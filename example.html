@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>enemyBox</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="js/jQuery.enemyBoxes.js"></script>
+
+	<script>
+		$(function() {
+			$(".A").enemyBoxes();
+			$(".B").enemyBoxes();
+			$(".C").enemyBoxes();
+		});
+	</script>
+</head>
+<body>
+
+<div>
+	Try to check boxes that have the same letters
+</div>
+
+<input class="A" type="checkbox"/>A<br/>
+<input class="B" type="checkbox"/>B<br/>
+<input class="B C" type="checkbox"/>B C<br/>
+<input class="C" type="checkbox"/>C<br/>
+<input class="A C" type="checkbox"/>A C<br/>
+
+</body>
+</html>
