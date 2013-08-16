@@ -1,4 +1,7 @@
-(function($) {
+//The semi-colon before the function is a safety net
+//against concatenated scripts and/or other plugins 
+//that are not closed properly.
+;(function($) {
 	$.fn.enemyBoxes = function() {
 		var selector = this.selector; //Get the selector used
 
